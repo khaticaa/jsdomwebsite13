@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #f1f1f1;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: blue;
+  font-size: 25px;
+  margin-left: 10%;
+  font-weight: 700;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  color: gray;
+  font-size: 17px;
+  margin-right: 10%;
+}
+
+.nav-list li {
+  margin-right: 15px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: gray;
+
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  color: black;
+  transition: 1.2s all ease;
+}
+
+.banner {
+  width: 100%;
+  min-height: 90vh;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.left {
+  width: 40%;
+  background-color: blanchedalmond;
+  height: 500px;
+}
+.right {
+  width: 30%;
+  background-color: blanchedalmond;
+  height: 400px;
+}
+
+.section3 {
+  width: 100%;
+  min-height: 500px;
+  background-color: #e8dbdb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section3TextContent {
+  width: 60%;
+  height: 330px;
+  background-color: antiquewhite;
+}
+
+.footer {
+  width: 100%;
+  min-height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .footerLogo {
+  width: 330px;
+  height: 40px;
+  background-color: #6f4444;
+  margin-left: 90px;
+}
+.footer .footerRight {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  margin-right: 90px;
+}
+
+.footer .footerRight .footerRightLeft,
+.footerRightCenter,
+.footerRightRight {
+  width: 70px;
+  height: 30px;
+  background-color: #6f4444;
+}
